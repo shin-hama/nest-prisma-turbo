@@ -5,7 +5,7 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.js",
   "scripts": {
-    "preinstall": "prisma generate && tsc",
+    "dev": "prisma generate && tsc --watch",
     "db:generate": "prisma generate",
     "db:push": "prisma db push --skip-generate",
     "db:studio": "prisma studio",
